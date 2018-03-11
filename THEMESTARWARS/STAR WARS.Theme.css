@@ -1,17 +1,17 @@
 //META{"name":"STAR WAR","description":"Theme Discord basado en tematica del videojuego star wars","author":"HarryElSuzio","version":"1.0"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/PrismPrison.8.css);
+@import url(https://rawgit.com/HarryElSuzio/Themes/blob/master/PrismPrison.8.css);
 
 /* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa */
-@import url(https://rawgit.com/KaminariKillua/Themes/master/Bars/Titlebar.old.css);
+@import url(https://rawgit.com/HarryElSuzio/Themes/blob/master/Bars/Titlebar.old.css);
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT: Only works in Light Mode! Change your mode in Settings &gt; Appearance.
 IMPORTANT: Links must be HTTPS!
 ---------------------------------------------------------------------------------------------------------------------------------------------
 -&gt; If some elements are broken, there is either: A new theme version available, or Discord has just updated.
--&gt; Redownload your respective theme from here: https://github.com/KaminariKillua/Themes.
+-&gt; Redownload your respective theme from here: https://github.com/HarryElSuzio/Themes.
 -&gt; If you notice elements are broken for a prolonged amount of time, please shoot me a message on Discord. 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
@@ -24,16 +24,12 @@ IMPORTANT: Links must be HTTPS!
  
     /* IMAGES */
  --background-image: url(https://es.best-wallpaper.net/wallpaper/3840x2160/1608/Star-Wars-Episode-VII-The-Force-Awakens-2016_3840x2160.jpg); 
- --dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif); 
- --profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);
-    --nsfw-image: url(https://puu.sh/zbsiF/9b67596e0e.png);
+ --dm-image: url(); 
+ --profile-image: url();
+    --nsfw-image: url();
  
     /* MISC */
  --background-blur: 0px;
  --background-brightness: 100%;
  --emoji-size: 50px;
 }
-/* ORIGINAL: --main-color: #e62727;--hover-color: #b81f1f;--channel-color: #ffcccc;--background-image: url(https://puu.sh/w1yBu/5c9dd69b92.jpg);--dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif);--profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);--nsfw-image: url(https://puu.sh/zbrR0/f770ed351a.jpeg);--background-blur: 0px;--background-brightness: 100%;--emoji-size: 50px; (in case you want to change it back) */
-/*
---------------------------------------------------------------------------------------------------------------------------------------------
-*/

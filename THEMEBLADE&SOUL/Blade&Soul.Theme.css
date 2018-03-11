@@ -1,7 +1,7 @@
-//META{"name":"THEME DISCORD KRITIKA ONLINE PSION","description":"Theme Discord con tematica del videojuego Kritika Online","author":"HarryElSuzio","version":"1.0"}*//{}
+//META{"name":"Blade & Soul","description":"Theme con tematica del videojuego Blade & Soul ","author":"HarryElsuzio","version":"1.0"}*//{}
 
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/HarryElSuzio/Themes/blob/master/PrismPrison.8.css);
+@import url(https://rawgit.com/HarryElSuzio/Themes/blob/blob/master/PrismPrison.8.css);
 
 /* IMPORTANT: Change '.old' to '.new' for the new titlebar and vice versa */
 @import url(https://rawgit.com/HarryElSuzio/Themes/blob/master/Bars/Titlebar.old.css);
@@ -18,16 +18,16 @@ IMPORTANT: Links must be HTTPS!
 /* ========== CUSTOMIZABLE VARIABLES ========== */
 :root {
     /* COLOURS */
-	--main-color: #2780e6;
-	--hover-color: #1f66b8;
-	--channel-color: #ccffff;
+	--main-color: #e62727;
+	--hover-color: #b81f1f;
+	--channel-color: #ffcccc;
 	
     /* IMAGES */
-	--background-image: url(https://puu.sh/w1xZT/27dd03a07c.png);
-	--dm-image: url(https://puu.sh/w1y3a/7e878418b3.gif);	
-	--profile-image: url(https://puu.sh/sAO0x/fdecb6c24b.png);
+	--background-image: url(https://i.pinimg.com/originals/f8/9e/f4/f89ef498a7e8838e9bc34dcccca2e4a1.jpg);	
+	--dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif);	
+	--profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);
     --nsfw-image: url(https://puu.sh/zbsiF/9b67596e0e.png);
-
+	
     /* MISC */
 	--background-blur: 0px;
 	--background-brightness: 100%;
