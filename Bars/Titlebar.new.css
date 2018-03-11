@@ -1,0 +1,107 @@
+/* NEW TITLE BAR - By intrnl, modified by Raiju*/
+:root {   
+    --i-dtl-buttonwidth: 48px;
+    --i-dtl-resizeheight: 6px;
+    --i-dtl-titlebarheight: 30px;
+    --i-dtl-tft-offset: 75px;
+    --i-dtl-tft-fontsize: 14px;
+}
+.titleBar-3_fDwJ .wordmark-2L03Wr {
+    background-image: url(https://cdn.rawgit.com/KaminariKillua/Themes/4527bb60/Icons/PrismPrison.logo.svg);
+    background-size: 60px 19px;
+}
+
+.titleBar-3_fDwJ div:nth-of-type(2) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg);
+}
+.titleBar-3_fDwJ div:nth-of-type(3) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg);
+}
+.titleBar-3_fDwJ div:nth-of-type(4) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg);
+}
+
+/* TitleforTitlebar */
+#app-mount #TitleforTitlebar {
+    height: var(--i-dtl-titlebarheight);
+    top: 0;
+    left: 0;
+    line-height: var(--i-dtl-titlebarheight);
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: var(--i-dtl-tft-fontsize);
+    margin-left: var(--i-dtl-tft-offset);
+}
+.auth-background,
+.auth-center,
+.auth-tiling-bg,
+.callout-backdrop,
+.upload-area {
+    margin-top: 30px;
+}
+.popout .themed-popout {
+    max-height: calc(100vh - var(--i-dtl-titlebarheight) - 48px - 20px) !important;
+}
+.ui-standard-sidebar-view .content-column,
+.ui-standard-sidebar-view .custom-column {
+    min-height: calc(100vh - var(--i-dtl-titlebarheight));
+}
+.modal-2LIEKY {
+    margin-top: var(--i-dtl-titlebarheight);
+    padding-top: calc(60px - var(--i-dtl-titlebarheight));
+}
+.header-toolbar .separator.separator-win,
+.windowsWrapper-eHsRZV {
+    display: none;
+}
+.tooltip,
+.context-menu {
+    z-index: 3005;
+}
+#app-mount {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Titlebar */
+.titleBar-3_fDwJ {
+    background-color: rgba(0,0,0,0.6);
+}
+.titleBar-3_fDwJ:after {
+    content: '';
+    height: var(--i-dtl-resizeheight);
+    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3002;
+    -webkit-app-region: no-drag;
+}
+.titleBar-3_fDwJ.typeWindows-15E0Ys {
+    height: var(--i-dtl-titlebarheight);
+    margin-top: 0;
+}
+.titleBar-3_fDwJ .wordmark-2L03Wr svg,
+.titleBar-3_fDwJ .winButton-U7zAqI svg {
+    display: none;
+}
+.titleBar-3_fDwJ .wordmark-2L03Wr {
+    height: var(--i-dtl-titlebarheight);
+    width: calc(100vw - var(--i-dtl-buttonwidth) * 3);
+    box-sizing: border-box;
+    opacity: .6;
+    background-position-x: 8px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.titleBar-3_fDwJ .winButton-U7zAqI {
+    height: var(--i-dtl-titlebarheight);
+    width: var(--i-dtl-buttonwidth);
+    top: 0;
+    cursor: default;
+    transition: 200ms ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+/* NEW TITLE BAR */
